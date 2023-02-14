@@ -1,0 +1,61 @@
+{
+	"Version": 3,
+	"FileReferences": {
+		"Moc": "mimiboy.moc3",
+		"Textures": [
+			"mimiboy.8192/texture_00.png"
+		],
+		"Physics": "mimiboy.physics3.json",
+		"DisplayInfo": "mimiboy.cdi3.json",
+		"Expressions": [
+			{
+				"Name": "baiyan.exp3.json",
+				"File": "expressions/baiyan.exp3.json"
+			},
+			{
+				"Name": "bao.exp3.json",
+				"File": "expressions/bao.exp3.json"
+			},
+			{
+				"Name": "erduo.exp3.json",
+				"File": "expressions/erduo.exp3.json"
+			},
+			{
+				"Name": "heilian.exp3.json",
+				"File": "expressions/heilian.exp3.json"
+			},
+			{
+				"Name": "lianhong.exp3.json",
+				"File": "expressions/lianhong.exp3.json"
+			},
+			{
+				"Name": "shengqi.exp3.json",
+				"File": "expressions/shengqi.exp3.json"
+			},
+			{
+				"Name": "waitao.exp3.json",
+				"File": "expressions/waitao.exp3.json"
+			},
+			{
+				"Name": "wenhao.exp3.json",
+				"File": "expressions/wenhao.exp3.json"
+			}
+		]
+	},
+	"Groups": [
+		{
+			"Target": "Parameter",
+			"Name": "EyeBlink",
+			"Ids": [
+				"ParamEyeLOpen",
+				"ParamEyeROpen"
+			]
+		},
+		{
+			"Target": "Parameter",
+			"Name": "LipSync",
+			"Ids": []
+		}
+	],
+	"HitAreas": []
+}
